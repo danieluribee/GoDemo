@@ -59,7 +59,7 @@ var array2 = []float32{10.2, 2.1, 3.5}
 printf(array2[2])
 
 <br/>
-**5.- To define a structure, you must use type and struct statements. The struct statement defines a new data type, with more than one member for your program. type statement binds a name with the type which is struct in our case. **
+**5.- To define a structure, you must use type and struct statements. The struct statement defines a new data type, with more than one member for your program. type statement binds a name with the type which is struct in our case.**
 
 type Vertex struct {
 	X int
