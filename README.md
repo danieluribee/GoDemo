@@ -102,9 +102,56 @@ LOOK IF A KEY/VALUE IS PRESENT
 v, ok := m["Answer"]
 fmt.Println("The value:", v, "Present?", ok)
 ```
+<br/>
+
+7.-Slice
+
+Unlike arrays, slices are typed only by the elements they contain (not the number of elements). To create an empty slice with non-zero length, use the builtin make. Here we make a slice of strings of length 3 (initially zero-valued).
+
+EMPTY SLICE
+s := make([]string, 3)
+
+ADD VALUES
+s[0] = "a"
+s[1] = "b"
+s[2] = "c"
+
+COPY SLICE
+c := make([]string, len(s))
+copy(c, s)
+
+SLICE OPERATORS:
+
+Using already Existing Slice: It is also be allowed to create a slice from the given slice. For creating a slice from the given slice first you need to specify the lower and upper bound, which means slice can take elements from the given slice starting from the lower bound to the upper bound. It does not include the elements above from the upper bound. As shown in the below example:
+
+CREATING SLICE
+sliceDemo := []int{90, 60, 40, 50, 34, 49, 30} 
+
+CREATING SLICES USING OPERATORS [High:Low]
+var my_slice_1 = oRignAl_slice[1:5] 
+my_slice_2 := oRignAl_slice[0:] 
+my_slice_3 := oRignAl_slice[:6] 
+my_slice_4 := oRignAl_slice[:] 
+my_slice_5 := my_slice_3[2:4] 
+
+PRINT RESULTS
+fmt.Println("Original Slice:", oRignAl_slice) 
+fmt.Println("New Slice 1:", my_slice_1) 
+fmt.Println("New Slice 2:", my_slice_2) 
+fmt.Println("New Slice 3:", my_slice_3) 
+fmt.Println("New Slice 4:", my_slice_4) 
+fmt.Println("New Slice 5:", my_slice_5) 
+
+OUTPUT
+Original Slice: [90 60 40 50 34 49 30]
+New Slice 1: [60 40 50 34]
+New Slice 2: [90 60 40 50 34 49 30]
+New Slice 3: [90 60 40 50 34 49]
+New Slice 4: [90 60 40 50 34 49 30]
+New Slice 5: [40 50]
 
 <br/>
-7.- Syntax of a for loop<br/>
+8.- Syntax of a for loop<br/>
 
 ```
 for [condition | (init; condition; increment) | Range]
