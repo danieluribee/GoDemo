@@ -20,4 +20,5 @@ type goinstall
 ![GoInstall](https://raw.githubusercontent.com/danieluribee/GoDemo/master/images/Screen%20Shot%202020-03-26%20at%2010.16.03.png)
 
 Select all and click ok
+
 ![Select All](https://raw.githubusercontent.com/danieluribee/GoDemo/master/images/Screen%20Shot%202020-03-26%20at%2010.16.42.png)
