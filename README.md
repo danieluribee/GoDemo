@@ -35,32 +35,32 @@ func function_name( [Parameter list] ) [return_types]{
 ```
 <br/>
 2.- In the functions the type comes after the parameter name:
-
+```
 func add(a int, b int) int {
 	return a+b
 }
-
+```
 <br/>
 3.- Go manage two types of variables, package and function level (different scope)
-
+```
 var node, angular bool  //package level
 
 func main(){
 	var x int  //function level
 }
-
+```
 <br/>
 4.- Arrays
-
+```
 var array1 [size] int
 
 var array2 = []float32{10.2, 2.1, 3.5}
 
 printf(array2[2])
-
+```
 <br/>
 5.- To define a structure, you must use type and struct statements. The struct statement defines a new data type, with more than one member for your program. type statement binds a name with the type which is struct in our case.
-
+```
 type Vertex struct {
 	X int
 	Y int
@@ -69,10 +69,10 @@ type Vertex struct {
 func main() {
 	fmt.Println(Vertex{1, 2})
 }
-
+```
 <br/>
 6.- Map
-
+```
 CREATE MAP
 m := make(map[string]int)
 
@@ -88,10 +88,10 @@ delete(m, "Answer")
 LOOK IF A KEY/VALUE IS PRESENT
 v, ok := m["Answer"]
 fmt.Println("The value:", v, "Present?", ok)
-
+```
 <br/>
 7.- Syntax of a for loop
-
+```
 for [condition | (init; condition; increment) | Range]
 {
 	statement(x)
@@ -137,3 +137,4 @@ EXAMPLE 3
 for _, value := range strDict {
   fmt.Println(value)
 }
+```
