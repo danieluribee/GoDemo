@@ -28,6 +28,7 @@ Select all and click ok
 BASICS OF GO
 
 1.- General form of a function
+
 ```
 func function_name( [Parameter list] ) [return_types]{
 	body
@@ -36,6 +37,7 @@ func function_name( [Parameter list] ) [return_types]{
 
 <br/>
 2.- In the functions the type comes after the parameter name
+
 ```
 func add(a int, b int) int {
 	return a+b
@@ -46,6 +48,7 @@ func add(a int, b int) int {
 3.- Go manage two types of variables, package and function level (different scope)
 
 var node, angular bool  //package level
+
 ```
 func main(){
 	var x int  //function level
@@ -63,6 +66,7 @@ printf(array2[2])
 
 <br/>
 5.- To define a structure, you must use type and struct statements. The struct statement defines a new data type, with more than one member for your program. type statement binds a name with the type which is struct in our case.
+
 ```
 type Vertex struct {
 	X int
@@ -97,6 +101,7 @@ fmt.Println("The value:", v, "Present?", ok)
 
 <br/>
 7.- Syntax of a for loop
+
 ```
 for [condition | (init; condition; increment) | Range]
 {
@@ -118,6 +123,7 @@ TRADITIONAL EXAMPLE
 package main
 
 import "fmt"
+
 ```
 func main() {
 	sum := 0
@@ -127,6 +133,7 @@ func main() {
 	fmt.Println(sum)
 }
 ```
+
 GOLANG EXAMPLES
 
 EXAMPLE 1
@@ -147,6 +154,7 @@ for key := range strDict {
 ```
 
 EXAMPLE 3
+
 ```
 for _, value := range strDict {
   fmt.Println(value)
