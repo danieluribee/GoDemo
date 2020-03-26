@@ -122,11 +122,11 @@ There is no need to put type. If you, it will give error.)
 
 TRADITIONAL EXAMPLE
 
+```
 package main
 
 import "fmt"
 
-```
 func main() {
 	sum := 0
 	for i := 0; i < 10; i++ {
