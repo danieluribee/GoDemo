@@ -83,6 +83,7 @@ func main() {
 <br/>
 6.- Map<br/>
 
+```
 CREATE MAP
 m := make(map[string]int)
 
@@ -98,6 +99,7 @@ delete(m, "Answer")
 LOOK IF A KEY/VALUE IS PRESENT
 v, ok := m["Answer"]
 fmt.Println("The value:", v, "Present?", ok)
+```
 
 <br/>
 7.- Syntax of a for loop<br/>
