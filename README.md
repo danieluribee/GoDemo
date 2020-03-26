@@ -27,21 +27,21 @@ Select all and click ok
 
 BASICS OF GO
 
-1.- General form of a function:
+**1.- General form of a function
 
 func function_name( [Parameter list] ) [return_types]{
 	body;
 }
 
-
-2.- In the functions the type comes after the parameter name:
+<br/>
+**2.- In the functions the type comes after the parameter name:
 
 func add(a int, b int) int {
 	return a+b
 }
 
-
-3.- Go manage two types of variables, package and function level (different scope)
+<br/>
+**3.- Go manage two types of variables, package and function level (different scope)
 
 var node, angular bool  //package level
 
@@ -49,8 +49,8 @@ func main(){
 	var x int  //function level
 }
 
-
-4.- Arrays
+<br/>
+**4.- Arrays
 
 var array1 [size] int
 
@@ -58,8 +58,8 @@ var array2 = []float32{10.2, 2.1, 3.5}
 
 printf(array2[2])
 
-
-5.- To define a structure, you must use type and struct statements. The struct statement defines a new data type, with more than one member for your program. type statement binds a name with the type which is struct in our case. 
+<br/>
+**5.- To define a structure, you must use type and struct statements. The struct statement defines a new data type, with more than one member for your program. type statement binds a name with the type which is struct in our case. 
 
 type Vertex struct {
 	X int
@@ -70,7 +70,8 @@ func main() {
 	fmt.Println(Vertex{1, 2})
 }
 
-6.- Map
+<br/>
+**6.- Map
 
 CREATE MAP
 m := make(map[string]int)
@@ -88,8 +89,8 @@ LOOK IF A KEY/VALUE IS PRESENT
 v, ok := m["Answer"]
 fmt.Println("The value:", v, "Present?", ok)
 
-
-7.- Syntax of a for loop
+<br/>
+**7.- Syntax of a for loop
 
 for [condition | (init; condition; increment) | Range]
 {
