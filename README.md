@@ -38,11 +38,24 @@ func function_name( [Parameter list] ) [return_types]{
 ```
 
 <br/>
-2.- In the functions the type comes after the parameter name<br/>
+2- In the functions the type comes after the parameter name<br/>
 
 ```
 func add(a int, b int) int {
 	return a+b
+}
+```
+
+<br/>
+2.1- Multiple Return Values<br/>
+
+```
+func vals() (int, int) {
+    return 3, 7
+}
+
+func main(){
+    a, b := vals()
 }
 ```
 
@@ -204,6 +217,8 @@ func main() {
 ```
 
 GOLANG EXAMPLES
+
+Range on arrays and slices provides both the index and value for each entry. Above we didn’t need the index, so we ignored it with the blank identifier _. Sometimes we actually want the indexes though.
 
 EXAMPLE 1
 
