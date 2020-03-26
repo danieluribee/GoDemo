@@ -33,6 +33,7 @@ func function_name( [Parameter list] ) [return_types]{
 	body
 }
 ```
+
 <br/>
 2.- In the functions the type comes after the parameter name
 ```
@@ -40,6 +41,7 @@ func add(a int, b int) int {
 	return a+b
 }
 ```
+
 <br/>
 3.- Go manage two types of variables, package and function level (different scope)
 
@@ -49,6 +51,7 @@ func main(){
 	var x int  //function level
 }
 ```
+
 <br/>
 4.- Arrays
 
@@ -66,11 +69,13 @@ type Vertex struct {
 	Y int
 }
 ```
+
 ```
 func main() {
 	fmt.Println(Vertex{1, 2})
 }
 ```
+
 <br/>
 6.- Map
 
@@ -98,6 +103,7 @@ for [condition | (init; condition; increment) | Range]
 	statement(x)
 }
 ```
+
 (USE OF ":="
 := is known as the short declaration operator.
 It is used to declare and initialize the variables only inside the functions.
@@ -123,20 +129,24 @@ func main() {
 ```
 GOLANG EXAMPLES
 
-EXAMPLE 1<br/>
+EXAMPLE 1
+
 ```
 strDict := map[string]string{"Japan": "Tokyo", "China": "Beijing", "Canada": "Ottawa"}
 for index, element := range strDict {
 	fmt.Println("Index :", index, " Element :", element)
 }
 ```
-EXAMPLE 2<br/>
+
+EXAMPLE 2
+
 ```
 for key := range strDict {
 	fmt.Println(key)
 }
 ```
-EXAMPLE 3<br/>
+
+EXAMPLE 3
 ```
 for _, value := range strDict {
   fmt.Println(value)
