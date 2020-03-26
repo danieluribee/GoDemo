@@ -111,14 +111,14 @@ for [condition | (init; condition; increment) | Range]
 }
 ```
 
-(USE OF ":="<br/>
+USE OF ":="<br/>
 := is known as the short declaration operator.
 It is used to declare and initialize the variables only inside the functions.
 Here, variables has only local scope as they are only declared inside functions.
 Declaration and initialzation of the variables must be done at the same time.
-There is no need to put type. If you, it will give error.)
+There is no need to put type. If you, it will give error.
 
-(The Range keyword is used in for loop to iterate over items of an array, slice, channel or map. With array and slices, it returns the index of the item as integer. With maps, it returns the key of the next key-value pair. Range either returns one value or two. If only one value is used on the left of a range expression, it is the 1st value in the following table.)
+The Range keyword is used in for loop to iterate over items of an array, slice, channel or map. With array and slices, it returns the index of the item as integer. With maps, it returns the key of the next key-value pair. Range either returns one value or two. If only one value is used on the left of a range expression, it is the 1st value in the following table.
 
 TRADITIONAL EXAMPLE
 
