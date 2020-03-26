@@ -34,7 +34,7 @@ func function_name( [Parameter list] ) [return_types]{
 }
 
 <br/>
-**2.- In the functions the type comes after the parameter name:**
+__2.- In the functions the type comes after the parameter name:__
 
 func add(a int, b int) int {
 	return a+b
