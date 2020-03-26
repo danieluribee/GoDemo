@@ -27,10 +27,11 @@ Select all and click ok
 
 BASICS OF GO
 
+'''
 1.- General form of a function
 
 func function_name( [Parameter list] ) [return_types]{
-	body;
+	body
 }
 
 <br/>
@@ -94,7 +95,7 @@ fmt.Println("The value:", v, "Present?", ok)
 
 for [condition | (init; condition; increment) | Range]
 {
-	statement(x);
+	statement(x)
 }
 
 (USE OF ":="
@@ -137,3 +138,4 @@ EXAMPLE 3
 for _, value := range strDict {
   fmt.Println(value)
 }
+'''
