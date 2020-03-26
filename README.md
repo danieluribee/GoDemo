@@ -139,33 +139,33 @@ sliceDemo := []int{90, 60, 40, 50, 34, 49, 30} <br/>
 
 CREATING SLICES USING OPERATORS [High:Low]<br/>
 ```
-var my_slice_1 = sliceDemo[1:5] <br/>
-my_slice_2 := oRignAl_slice[0:] <br/>
-my_slice_3 := oRignAl_slice[:6] <br/>
-my_slice_4 := oRignAl_slice[:] <br/>
-my_slice_5 := my_slice_3[2:4] <br/>
+var my_slice_1 = sliceDemo[1:5] 
+my_slice_2 := sliceDemo[0:] 
+my_slice_3 := sliceDemo[:6]
+my_slice_4 := sliceDemo[:] 
+my_slice_5 := my_slice_3[2:4] 
 ```
 
 PRINT RESULTS<br/>
 
 ```
-fmt.Println("Original Slice:", sliceDemo) <br/>
-fmt.Println("New Slice 1:", my_slice_1) <br/>
-fmt.Println("New Slice 2:", my_slice_2) <br/>
-fmt.Println("New Slice 3:", my_slice_3) <br/>
-fmt.Println("New Slice 4:", my_slice_4) <br/>
-fmt.Println("New Slice 5:", my_slice_5) <br/>
+fmt.Println("Original Slice:", sliceDemo) 
+fmt.Println("New Slice 1:", my_slice_1) 
+fmt.Println("New Slice 2:", my_slice_2) 
+fmt.Println("New Slice 3:", my_slice_3) 
+fmt.Println("New Slice 4:", my_slice_4) 
+fmt.Println("New Slice 5:", my_slice_5) 
 ```
 
 OUTPUT<br/>
 
 ```
-Original Slice: [90 60 40 50 34 49 30]<br/>
-New Slice 1: [60 40 50 34]<br/>
-New Slice 2: [90 60 40 50 34 49 30]<br/>
-New Slice 3: [90 60 40 50 34 49]<br/>
-New Slice 4: [90 60 40 50 34 49 30]<br/>
-New Slice 5: [40 50]<br/>
+Original Slice: [90 60 40 50 34 49 30]
+New Slice 1: [60 40 50 34]
+New Slice 2: [90 60 40 50 34 49 30]
+New Slice 3: [90 60 40 50 34 49]
+New Slice 4: [90 60 40 50 34 49 30]
+New Slice 5: [40 50]
 ```
 
 <br/>
