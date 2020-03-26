@@ -27,7 +27,7 @@ Select all and click ok
 
 BASICS OF GO
 
-1.- General form of a function
+1.- General form of a function<br/>
 
 ```
 func function_name( [Parameter list] ) [return_types]{
@@ -36,7 +36,7 @@ func function_name( [Parameter list] ) [return_types]{
 ```
 
 <br/>
-2.- In the functions the type comes after the parameter name
+2.- In the functions the type comes after the parameter name<br/>
 
 ```
 func add(a int, b int) int {
@@ -45,43 +45,43 @@ func add(a int, b int) int {
 ```
 
 <br/>
-3.- Go manage two types of variables, package and function level (different scope)
-
-var node, angular bool  //package level
+3.- Go manage two types of variables, package and function level (different scope)<br/>
 
 ```
+var node, angular bool  //package level
+
 func main(){
 	var x int  //function level
 }
 ```
 
 <br/>
-4.- Arrays
+4.- Arrays<br/>
 
+```
 var array1 [size] int
 
 var array2 = []float32{10.2, 2.1, 3.5}
 
 printf(array2[2])
+```
 
 <br/>
-5.- To define a structure, you must use type and struct statements. The struct statement defines a new data type, with more than one member for your program. type statement binds a name with the type which is struct in our case.
+5.- To define a structure, you must use type and struct statements. The struct statement defines a new data type, with more than one member for your program. type statement binds a name with the type which is struct in our case.<br/>
 
 ```
 type Vertex struct {
 	X int
 	Y int
 }
-```
 
-```
 func main() {
 	fmt.Println(Vertex{1, 2})
 }
 ```
 
 <br/>
-6.- Map
+6.- Map<br/>
 
 CREATE MAP
 m := make(map[string]int)
@@ -100,7 +100,7 @@ v, ok := m["Answer"]
 fmt.Println("The value:", v, "Present?", ok)
 
 <br/>
-7.- Syntax of a for loop
+7.- Syntax of a for loop<br/>
 
 ```
 for [condition | (init; condition; increment) | Range]
