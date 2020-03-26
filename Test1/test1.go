@@ -1,3 +1,8 @@
+/*Form of a function
+func function_name( [Parameter list] ) [return_types]{
+	body
+}*/
+
 package main
 
 import "fmt"
