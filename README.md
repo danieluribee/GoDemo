@@ -15,7 +15,7 @@ Open the Command Palette
 
 ![Command Palette](https://raw.githubusercontent.com/danieluribee/GoDemo/master/images/Screen%20Shot%202020-03-26%20at%2010.15.18.png)
 
-type goinstall
+Type goinstall and select update tools
 
 ![GoInstall](https://raw.githubusercontent.com/danieluribee/GoDemo/master/images/Screen%20Shot%202020-03-26%20at%2010.16.03.png)
 
