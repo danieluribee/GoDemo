@@ -27,13 +27,12 @@ Select all and click ok
 
 BASICS OF GO
 
-'''
 1.- General form of a function
-
+```
 func function_name( [Parameter list] ) [return_types]{
 	body
 }
-
+```
 <br/>
 2.- In the functions the type comes after the parameter name:
 
@@ -138,4 +137,3 @@ EXAMPLE 3
 for _, value := range strDict {
   fmt.Println(value)
 }
-'''
