@@ -111,7 +111,7 @@ for [condition | (init; condition; increment) | Range]
 }
 ```
 
-(USE OF ":="
+(USE OF ":="<br/>
 := is known as the short declaration operator.
 It is used to declare and initialize the variables only inside the functions.
 Here, variables has only local scope as they are only declared inside functions.
