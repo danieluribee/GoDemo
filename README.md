@@ -109,16 +109,25 @@ fmt.Println("The value:", v, "Present?", ok)
 Unlike arrays, slices are typed only by the elements they contain (not the number of elements). To create an empty slice with non-zero length, use the builtin make. Here we make a slice of strings of length 3 (initially zero-valued).
 
 EMPTY SLICE
+```
 s := make([]string, 3)
+```
+<br/>
 
 ADD VALUES
+```
 s[0] = "a"
 s[1] = "b"
 s[2] = "c"
+```
+<br/>
 
 COPY SLICE
+```
 c := make([]string, len(s))
 copy(c, s)
+```
+<br/>
 
 SLICE OPERATORS:<br/>
 
@@ -129,30 +138,35 @@ CREATING SLICE<br/>
 sliceDemo := []int{90, 60, 40, 50, 34, 49, 30} <br/>
 
 CREATING SLICES USING OPERATORS [High:Low]<br/>
-
+```
 var my_slice_1 = sliceDemo[1:5] <br/>
 my_slice_2 := oRignAl_slice[0:] <br/>
 my_slice_3 := oRignAl_slice[:6] <br/>
 my_slice_4 := oRignAl_slice[:] <br/>
 my_slice_5 := my_slice_3[2:4] <br/>
+```
 
 PRINT RESULTS<br/>
 
+```
 fmt.Println("Original Slice:", sliceDemo) <br/>
 fmt.Println("New Slice 1:", my_slice_1) <br/>
 fmt.Println("New Slice 2:", my_slice_2) <br/>
 fmt.Println("New Slice 3:", my_slice_3) <br/>
 fmt.Println("New Slice 4:", my_slice_4) <br/>
 fmt.Println("New Slice 5:", my_slice_5) <br/>
+```
 
 OUTPUT<br/>
 
+```
 Original Slice: [90 60 40 50 34 49 30]<br/>
 New Slice 1: [60 40 50 34]<br/>
 New Slice 2: [90 60 40 50 34 49 30]<br/>
 New Slice 3: [90 60 40 50 34 49]<br/>
 New Slice 4: [90 60 40 50 34 49 30]<br/>
 New Slice 5: [40 50]<br/>
+```
 
 <br/>
 8.- Syntax of a for loop<br/>
