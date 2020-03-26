@@ -50,7 +50,7 @@ func main(){
 }
 
 <br/>
-**4.- Arrays
+**4.- Arrays**
 
 var array1 [size] int
 
