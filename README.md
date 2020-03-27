@@ -149,7 +149,7 @@ Using already Existing Slice: It is also be allowed to create a slice from the g
 CREATING SLICE<br/>
 
 ```
-sliceDemo := []int{90, 60, 40, 50, 34, 49, 30} <br/>
+sliceDemo := []int{90, 60, 40, 50, 34, 49, 30} 
 ```
 
 CREATING SLICES USING OPERATORS [High:Low]<br/>
